@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        //tsc -w nó sẽ tự động phát hiện ra sự thay đổi và biên dịch lại
+        "target": "ES6",//cho phép typescript biên dịch sang ES6
+        "module": "commonjs",//commonjs là tiêu chuẩn đc sử dụng trong node.js để làm việc vs các module
+        "removeComments": true,//xóa các comment khi biên dịch sang  file js
+        "esModuleInterop": true//sử dụng từ khóa import thay cho require
+    }
+}
